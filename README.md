@@ -12,7 +12,7 @@ Co převod mění:
 
 ## Když převod selže
 
-Skript je záměrně přísný. Pokud autor změní společnou metodiku nebo Lhůtník, nebo po převodu kdekoli zbude CODEXIS, workflow skončí chybou, nic nepřepíše a GitHub pošle e-mail. Opravu udělá Claude Code, stačí mu říct:
+Skript je záměrně přísný. Pokud autor změní společnou metodiku, nebo po převodu kdekoli zbude CODEXIS, workflow skončí chybou, nic nepřepíše a GitHub pošle e-mail. Opravu udělá Claude Code, stačí mu říct:
 
 > V repozitáři riha-legal-plugins-nocodexis selhal převod. Podle konverze/NAVOD.md zjisti, co autor změnil, a uprav převodní soubory.
 

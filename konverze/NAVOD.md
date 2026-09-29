@@ -6,7 +6,6 @@ Převod selhal, protože se originál změnil způsobem, který skript nepozná.
 2. Spusť `python3 konverze/konverze.py /tmp/original /tmp/prevedeno` a přečti chybové hlášky.
 3. Podle typu chyby:
    - **„autor změnil společnou metodiku“**: vezmi společný blok z libovolného oborového SKILL.md v originálu (od `## Výhradní zdrojový režim` do `## Oborové otázky`) a porovnej ho s `konverze/puvodni-blok.md`. Věcné změny autora (nové kroky, upřesnění) promítni do `konverze/novy-blok.md`, ale vždy ve verzi pro konektory Salvia a lawgpt, nikdy s CODEXIS. Pak nový blok z originálu ulož jako `konverze/puvodni-blok.md`.
-   - **„Lhůtník: autor změnil SKILL.md“**: porovnej nový originál s `konverze/lhutnik-puvodni-SKILL.md`, změny promítni do `konverze/lhutnik-novy-SKILL.md` (kalendář „AK - Jirka“ přes Spark, potvrzení před každým zápisem zachovat) a nový originál ulož jako `lhutnik-puvodni-SKILL.md`.
    - **„po převodu zůstal CODEXIS“**: autor použil novou formulaci. Doplň pravidlo do `BODY_SUBS` nebo `FM_DESC_CZ` v `konverze.py` tak, aby věta zůstala gramaticky správná.
    - **„nenalezen společný blok“**: struktura skillu se změnila zásadněji — nic neopravuj naslepo, popiš uživateli, co se změnilo, a navrhni řešení.
 4. Spusť převod znovu, dokud neprojde, a namátkou zkontroluj 2–3 převedené skilly, že dávají smysl.

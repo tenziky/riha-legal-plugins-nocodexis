@@ -93,14 +93,7 @@ def main(src, dst):
             continue
         prevod_skillu(f, puvodni, novy)
 
-    # 2) Lhůtník — nahrazení jen pokud se originál nezměnil
-    lh = os.path.join(dst, "plugins", "lhutnik", "skills", "jednani", "SKILL.md")
-    if os.path.exists(lh):
-        if cti(lh) != cti(os.path.join(TU, "lhutnik-puvodni-SKILL.md")):
-            chyby.append("Lhůtník: autor změnil SKILL.md — zkontrolujte rozdíl proti konverze/lhutnik-puvodni-SKILL.md "
-                         "a promítněte změny do lhutnik-novy-SKILL.md")
-        else:
-            shutil.copy(os.path.join(TU, "lhutnik-novy-SKILL.md"), lh)
+    # 2) Lhůtník ponecháváme beze změny (zápis do kalendáře dle originálu)
 
     # 3) metadata pluginů a marketplace
     for f in glob.glob(os.path.join(dst, "plugins", "*", ".claude-plugin", "plugin.json")):
@@ -111,10 +104,6 @@ def main(src, dst):
     m.setdefault("metadata", {})["description"] = (
         "Automaticky převedená kopie riha-legal-plugins (JUDr. Vojtěch Říha, Ph.D., Apache-2.0) "
         "pro konektory Salvia, lawgpt, Sagasu a Ansvar.")
-    for p in m.get("plugins", []):
-        if p.get("name") == "lhutnik":
-            p["description"] = ("Lhůtník pro českou advokátní praxi — ze záznamu z jednání založí hlídané lhůty "
-                                "v kalendáři „AK - Jirka“ (Spark); konce lhůt počítá dle § 57 o. s. ř.")
     zapis(mp, json.dumps(m, ensure_ascii=False, indent=2) + "\n")
 
     # 4) sdílené texty
@@ -140,6 +129,8 @@ def main(src, dst):
             if "CODEXIS" in radek and "Upraveno z pluginu" not in radek and "CODEXIS nahrazen" not in radek:
                 chyby.append(f"{f}:{i}: po převodu zůstal CODEXIS: {radek.strip()[:120]}")
     for f in skilly:
+        if os.sep + "lhutnik" + os.sep in f:
+            continue  # ponechán beze změny podle originálu
         try:
             d = yaml.safe_load(cti(f).split("---")[1])
             assert d.get("name") and d.get("description")
