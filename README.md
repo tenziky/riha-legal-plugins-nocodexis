@@ -8,7 +8,6 @@ Workflow `.github/workflows/prevod.yml` každé pondělí (nebo ručně z karty 
 
 Co převod mění:
 - všech 50 oborových skillů: společná metodika (`konverze/puvodni-blok.md`) se nahradí verzí pro konektory (`konverze/novy-blok.md`), zmínky o CODEXIS v oborových částech a popisech se přepíšou,
-- `lhutnik`: zápis do iCloud kalendáře „AK - Jirka“ přes konektor Spark (`konverze/lhutnik-novy-SKILL.md`),
 - marketplace se jmenuje `riha-legal-plugins-nocodexis`, aby mohl existovat vedle originálu.
 
 ## Když převod selže
