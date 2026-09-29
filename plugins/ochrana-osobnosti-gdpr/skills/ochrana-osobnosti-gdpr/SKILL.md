@@ -25,7 +25,7 @@ i18n:
       - "O klientovi vyšiel článok s nepravdivým tvrdením o trestnom stíhaní. Aké nároky má, v akom poradí a s akými lehotami?"
       - "Bývalý zamestnanec zverejnil na sieti fotografie z firemného večierka s urážlivými komentármi. Čo možno žiadať od neho a od platformy?"
       - "Firma chce nasadiť kamery so záznamom na pracovisku. Aké má povinnosti podľa GDPR a zákonníka práce?"
-description: Použij pro osobnost, čest, důstojnost, soukromí, podobu, jméno a pověst, mediální zásahy, omluvu a zadostiučinění, osobní údaje, práva subjektů, správce a zpracovatele, GDPR compliance, kamery, monitoring, marketing, incidenty, DPIA, pověřence, ÚOOÚ a odstraňování obsahu podle DSA.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro osobnost, čest, důstojnost, soukromí, podobu, jméno a pověst, mediální zásahy, omluvu a zadostiučinění, osobní údaje, práva subjektů, správce a zpracovatele, GDPR compliance, kamery, monitoring, marketing, incidenty, DPIA, pověřence, ÚOOÚ a odstraňování obsahu podle DSA. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu ochrana-osobnosti-gdpr (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

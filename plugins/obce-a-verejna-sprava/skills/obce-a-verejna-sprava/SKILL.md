@@ -25,7 +25,7 @@ i18n:
       - "Obec predala pozemok bez zverejnenia zámeru a za cenu pod znaleckým posudkom. Je zmluva platná a kto za to zodpovedá?"
       - "Občan žiada podľa infozákona o zmluvy a platy vedúcich úradníkov. Čo musíme vydať, čo odmietnuť a v akých lehotách?"
       - "Zastupiteľstvo chce vyhláškou zakázať konzumáciu alkoholu na celom území obce. Obstojí to pred ministerstvom a Ústavným súdom?"
-description: 'Použij pro obce, kraje a veřejné subjekty: samostatnou a přenesenou působnost, zastupitelstvo, radu a starostu, obecní majetek, záměry a smlouvy, normotvorbu a dozor, informace, dotace a rozpočet, obecní organizace, referendum, poplatky, střet zájmů a odpovědnost.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro obce, kraje a veřejné subjekty: samostatnou a přenesenou působnost, zastupitelstvo, radu a starostu, obecní majetek, záměry a smlouvy, normotvorbu a dozor, informace, dotace a rozpočet, obecní organizace, referendum, poplatky, střet zájmů a odpovědnost. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu obce-a-verejna-sprava (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

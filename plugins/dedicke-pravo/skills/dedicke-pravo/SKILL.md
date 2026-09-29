@@ -25,7 +25,7 @@ i18n:
       - "Zomrel otec, zanechal závet len v prospech družky a dlhy z podnikania. Čo majú deti urobiť a dokedy?"
       - "Priprav alografný závet s vydedením syna pre trvalé neprejavovanie záujmu - aké sú náležitosti a riziká?"
       - "Notár odkázal klienta na žalobu o dedičské právo. Ako formulovať petit a aká lehota beží?"
-description: 'Použij pro české dědictví a pozůstalost: závěti, dědické smlouvy, odkazy, zákonná posloupnost, nepominutelní dědici, povinný díl, vydědění, nezpůsobilost, odmítnutí a soupis, dluhy, SJM, notářské řízení, dědické spory, likvidace, správa, přeshraniční dědictví a plánování pro případ smrti.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro české dědictví a pozůstalost: závěti, dědické smlouvy, odkazy, zákonná posloupnost, nepominutelní dědici, povinný díl, vydědění, nezpůsobilost, odmítnutí a soupis, dluhy, SJM, notářské řízení, dědické spory, likvidace, správa, přeshraniční dědictví a plánování pro případ smrti. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu dedicke-pravo (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

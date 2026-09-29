@@ -25,7 +25,7 @@ i18n:
       - "Klientovi prišiel príkaz za prekročenie rýchlosti o 45 km/h v obci s pokutou a zákazom vedenia na 6 mesiacov, meranie prebehlo pred 14 mesiacmi. Je priestupok premlčaný a má zmysel podať odpor?"
       - "Firme klienta uložil živnostenský úrad pokutu 400 000 Kč za priestupok, o ktorom rozhodol bez ústneho pojednávania a bez výsluchu navrhnutých svedkov. Aké vady namietať v odvolaní a možno žiadať moderáciu na súde?"
       - "Klient dostal za ten istý skutok pokutu v priestupkovom konaní a teraz je trestne stíhaný. Bráni zásada ne bis in idem trestnému stíhaniu?"
-description: 'Použij pro přestupky a správní sankce: obviněného, poškozeného, odpovědnost fyzických a právnických osob, liberaci, promlčení, příkaz a odpor, tresty, náklady, odvolání, soudní moderaci, dopravní přestupky, body a zákaz řízení, ne bis in idem a hranici trestného činu. Obecný správní proces a trestní obhajobu propojuj s oborovými skilly.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro přestupky a správní sankce: obviněného, poškozeného, odpovědnost fyzických a právnických osob, liberaci, promlčení, příkaz a odpor, tresty, náklady, odvolání, soudní moderaci, dopravní přestupky, body a zákaz řízení, ne bis in idem a hranici trestného činu. Obecný správní proces a trestní obhajobu propojuj s oborovými skilly. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu prestupkove-pravo-spravni-trestani (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

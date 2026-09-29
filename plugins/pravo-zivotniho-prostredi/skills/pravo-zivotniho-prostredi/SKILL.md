@@ -25,7 +25,7 @@ i18n:
       - "ČIŽP uložila klientovi pokutu 800 000 Kč za nakladanie s odpadmi bez povolenia. Aké sú lehoty a dôvody na odvolanie a možno pokutu znížiť?"
       - "Spolok chce napadnúť zámer skladovej haly pri obci. V akej fáze (EIA, územné konanie, povolenie) sa môže zúčastniť a ako založiť aktívnu legitimáciu?"
       - "Klient kúpil pozemok so starou ekologickou záťažou. Kto zodpovedá za sanáciu a ako sa brániť uloženiu nápravných opatrení?"
-description: Použij pro EIA, SEA, JES a IPPC, vodu, ovzduší, odpady a obaly, přírodu a krajinu, Natura, les a ZPF, hluk, ekologickou újmu a sanace, ČIŽP a sankce, účast veřejnosti a informace, environmentální transakce, klima, ETS, ESG a CSRD.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro EIA, SEA, JES a IPPC, vodu, ovzduší, odpady a obaly, přírodu a krajinu, Natura, les a ZPF, hluk, ekologickou újmu a sanace, ČIŽP a sankce, účast veřejnosti a informace, environmentální transakce, klima, ETS, ESG a CSRD. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu pravo-zivotniho-prostredi (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

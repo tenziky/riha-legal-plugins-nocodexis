@@ -25,7 +25,7 @@ i18n:
       - "Denník zverejnil o klientovi (starostovi) článok s nepravdivým tvrdením o sprenevere dotácie. Ako uplatniť právo na odpoveď, aké sú lehoty a kedy má zmysel žaloba na ochranu osobnosti?"
       - "Klient predáva výživový doplnok a chce kampaň s influencermi, ktorá tvrdí, že produkt „posilňuje imunitu a pomáha pri chudnutí“. Čo je prípustné a ako označiť spoluprácu?"
       - "Konkurent klienta spustil porovnávaciu reklamu, kde uvádza ceny klienta z minulého roka a označuje jeho produkt za „predražený šmejd“. Aké nároky možno uplatniť a možno žiadať predbežné opatrenie?"
-description: Použij pro tisk, vysílání, audiovizuální služby, reklamní kampaně, influencery, právo na odpověď, novinářské zdroje, mediální osobnostní zásahy, komoditní a politickou reklamu, přímý marketing, dohled a reklamní smlouvy. Obecnou náhradu újmy, platformovou infrastrukturu a hospodářskou soutěž propojuj s příslušným oborovým skillem.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro tisk, vysílání, audiovizuální služby, reklamní kampaně, influencery, právo na odpověď, novinářské zdroje, mediální osobnostní zásahy, komoditní a politickou reklamu, přímý marketing, dohled a reklamní smlouvy. Obecnou náhradu újmy, platformovou infrastrukturu a hospodářskou soutěž propojuj s příslušným oborovým skillem. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu medialni-pravo-reklama (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

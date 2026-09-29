@@ -25,7 +25,7 @@ i18n:
       - "Klient utrpel pri páde na neupratanom chodníku zlomeninu s trvalými následkami. Kto zodpovedá, ako vyčísliť bolestné a sťaženie spoločenského uplatnenia podľa Metodiky NS a aké sú lehoty?"
       - "Manžel klientky zomrel po chybe lekára. Aké nároky majú manželka a deti, v akej výške sa priznávajú a ako preukázať príčinnú súvislosť?"
       - "Dodávateľ softvéru chybou zničil klientovi dáta a firma prišla o zákazky. Možno žiadať ušlý zisk a ako ho preukázať, keď zmluva limituje náhradu?"
-description: Použij pro smluvní a deliktní odpovědnost, škodu, ušlý zisk, nemajetkovou újmu, zdraví, pozůstalé, kauzalitu, spoluzavinění, limitaci náhrady, odpovědnost provozovatelů, výrobce, profesionálů, zaměstnavatele či státu, promlčení, pojistné a adhezní souvislosti.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro smluvní a deliktní odpovědnost, škodu, ušlý zisk, nemajetkovou újmu, zdraví, pozůstalé, kauzalitu, spoluzavinění, limitaci náhrady, odpovědnost provozovatelů, výrobce, profesionálů, zaměstnavatele či státu, promlčení, pojistné a adhezní souvislosti. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu nahrada-ujmy-odpovednost (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

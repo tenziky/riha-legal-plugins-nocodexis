@@ -25,7 +25,7 @@ i18n:
       - "Klient spúšťa e-shop s elektronikou pre ČR a Slovensko. Zreviduj obchodné podmienky a nákupný proces: informačné povinnosti, tlačidlo objednávky, odstúpenie, reklamácie, zľavy, cookies a DPH."
       - "Zákazník vrátil po 13 dňoch rozbalený a použitý robotický vysávač a chce celú kúpnu cenu. Musí e-shop vracať všetko, alebo možno krátiť za zníženie hodnoty, a ako to preukázať?"
       - "Klient prevádzkuje online trhovisko, kde predávajú tretie strany. Aké povinnosti má voči DSA, P2B a spotrebiteľom a kedy zodpovedá za chybný tovar predajcov?"
-description: Použij pro online prodej, distanční a mimo provozovnu uzavřené smlouvy, e-shopy, digitální obsah a služby, tržiště, platformy, dropshipping, předplatné, obchodní podmínky, objednávky, odstoupení, vady, reklamace, reklamu, cookies, platby, DSA, P2B, GPSR, přístupnost a přeshraniční daňové souvislosti. Specializované otázky dat a IT smluv koordinuj s GDPR a IT skilly.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro online prodej, distanční a mimo provozovnu uzavřené smlouvy, e-shopy, digitální obsah a služby, tržiště, platformy, dropshipping, předplatné, obchodní podmínky, objednávky, odstoupení, vady, reklamace, reklamu, cookies, platby, DSA, P2B, GPSR, přístupnost a přeshraniční daňové souvislosti. Specializované otázky dat a IT smluv koordinuj s GDPR a IT skilly. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu e-commerce-digitalni-sluzby (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

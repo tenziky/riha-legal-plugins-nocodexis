@@ -25,7 +25,7 @@ i18n:
       - "Dodávateľ elektriny jednostranne zvýšil cenu a klient chce odísť bez sankcie. Aké sú lehoty a ako správne vypovedať zmluvu?"
       - "Obec chce postaviť FVE na strechách škôl a zdieľať elektrinu medzi budovami. Aký režim (energetické spoločenstvo, zdieľanie) a aké povolenia?"
       - "Distribútor odmietol pripojiť výrobňu 500 kW pre nedostatok kapacity. Možno sa brániť a u koho?"
-description: Použij pro dodávky elektřiny, plynu a tepla, zákazníky a dodavatele, ukončení a změny smluv, připojení, licence a výrobny, FVE a OZE, podporu, komunitní energetiku a sdílení, akumulaci, teplárenství, PENB, cenovou regulaci, ERÚ a SEI, energetické transakce a spory.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro dodávky elektřiny, plynu a tepla, zákazníky a dodavatele, ukončení a změny smluv, připojení, licence a výrobny, FVE a OZE, podporu, komunitní energetiku a sdílení, akumulaci, teplárenství, PENB, cenovou regulaci, ERÚ a SEI, energetické transakce a spory. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu energeticke-pravo (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

@@ -25,7 +25,7 @@ i18n:
       - "Dlžník nezaplatil tri faktúry po 80 000 Kč z roku 2024. Navrhni postup vymáhania a vypočítaj, čo možno požadovať."
       - "Prišiel odpor proti elektronickému platobnému rozkazu. Čo teraz a aké lehoty bežia?"
       - "Máme právoplatný rozsudok, dlžník neplatí. Ako podať exekučný návrh a čo ak je v insolvencii?"
-description: 'Use for Czech debt recovery and debtor defence: claim verification, interest and limitation, demands, payment orders, litigation, security and settlements, enforcement, insolvency intersections and economic recovery assessment.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Use for Czech debt recovery and debtor defence: claim verification, interest and limitation, demands, payment orders, litigation, security and settlements, enforcement, insolvency intersections and economic recovery assessment. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu vymahani-pohledavek (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

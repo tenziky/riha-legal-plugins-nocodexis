@@ -25,7 +25,7 @@ i18n:
       - "Nájomca neplatí tri mesiace a v byte bývajú aj osoby, ktoré nenahlásil. Ako dať platnú výpoveď a ako rýchlo ho vysťahovať?"
       - "Zhromaždenie SVJ schválilo úver na zateplenie a klient bol prehlasovaný. Môže sa brániť a dokedy?"
       - "Prenajímateľ vrátil zábezpeku zníženú o 'opotrebenie' bez dokladov. Aké má nájomca nároky?"
-description: Použij pro nájem bytu či domu, podnikatelských prostor, podnájem, pacht, ubytování a krátkodobé pronájmy; nájemné, jistotu, služby, opravy, výpovědi, přezkum a vyklizení; SVJ, prohlášení vlastníka, shromáždění, příspěvky, převody jednotek a bytová družstva.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro nájem bytu či domu, podnikatelských prostor, podnájem, pacht, ubytování a krátkodobé pronájmy; nájemné, jistotu, služby, opravy, výpovědi, přezkum a vyklizení; SVJ, prohlášení vlastníka, shromáždění, příspěvky, převody jednotek a bytová družstva. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu bytove-pravo-najem-svj (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

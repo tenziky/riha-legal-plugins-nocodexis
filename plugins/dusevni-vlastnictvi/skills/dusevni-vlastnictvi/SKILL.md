@@ -25,7 +25,7 @@ i18n:
       - "Externý vývojár nám napísal softvér bez licenčnej zmluvy. Kto je vlastníkom a čo môžeme s kódom robiť?"
       - "Konkurent začal používať logo zameniteľné s našou ochrannou známkou. Aké nároky máme a ako rýchlo možno zasiahnuť?"
       - "Priprav stratégiu registrácie ochrannej známky pre nový produkt v ČR a EÚ vrátane rešerše a tried."
-description: Použij pro autorské právo, software a databáze, licence, zaměstnanecká a objednaná díla, známky, patenty, užitné a průmyslové vzory, označení původu, domény, obchodní tajemství, know-how, AI a TDM, kolektivní správu, registrace a vymáhání duševního vlastnictví v ČR a EU.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro autorské právo, software a databáze, licence, zaměstnanecká a objednaná díla, známky, patenty, užitné a průmyslové vzory, označení původu, domény, obchodní tajemství, know-how, AI a TDM, kolektivní správu, registrace a vymáhání duševního vlastnictví v ČR a EU. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu dusevni-vlastnictvi (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

@@ -25,7 +25,7 @@ i18n:
       - "Klientka bola napadnutá partnerom, polícia vec odložila ako priestupok. Ako podať sťažnosť proti odloženiu a aké má klientka práva ako obeť domáceho násilia?"
       - "Klient utrpel pri lúpeži ťažké zranenie, páchateľ je stíhaný. Ako uplatniť nárok na bolestné, sťaženie spoločenského uplatnenia a ušlý zárobok v adhéznom konaní a ako požiadať o peňažnú pomoc štátu?"
       - "Rodičia znásilnenej maloletej chcú, aby dcéra nemusela vypovedať pred obžalovaným a aby bol zástupca bezplatný. Čo možno v trestnom konaní zabezpečiť?"
-description: 'Použij pro zastupování obětí a poškozených: zvláštní zranitelnost, ochranu a informace, důvěrníka a zmocněnce, šetrný výslech, bezpečnostní opatření, adhezní nárok, peněžitou pomoc, souhlas s trestním stíháním, stížnosti, náklady, restorativní řešení a výkon náhrady. Obhajobu obviněného řeší samostatný skill.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro zastupování obětí a poškozených: zvláštní zranitelnost, ochranu a informace, důvěrníka a zmocněnce, šetrný výslech, bezpečnostní opatření, adhezní nárok, peněžitou pomoc, souhlas s trestním stíháním, stížnosti, náklady, restorativní řešení a výkon náhrady. Obhajobu obviněného řeší samostatný skill. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu obeti-trestnych-cinu (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

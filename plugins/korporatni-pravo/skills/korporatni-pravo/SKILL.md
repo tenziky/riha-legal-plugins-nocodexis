@@ -25,7 +25,7 @@ i18n:
       - "Investor vstupuje do s.r.o. s tretinovým podielom a chce ochranu proti prehlasovaniu. Ako nastaviť spoločenskú zmluvu a dohodu spoločníkov?"
       - "Konateľ uzavrel zmluvu bez súhlasu valného zhromaždenia, ktorý vyžaduje spoločenská zmluva. Je zmluva platná a kto zodpovedá?"
       - "Priprav postup prevodu obchodného podielu na tretiu osobu vrátane zápisu do registra."
-description: 'Použij pro obchodní korporace: s.r.o., a.s., družstva, založení, společenské smlouvy a stanovy, kapitál, podíly a akcie, převody a zástavy, valné hromady a per rollam, orgány, péči řádného hospodáře, střet zájmů, odměňování, odpovědnost při úpadku, zisk, dohody společníků, koncerny, přeměny, likvidaci, veřejný rejstřík a skutečné majitele.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro obchodní korporace: s.r.o., a.s., družstva, založení, společenské smlouvy a stanovy, kapitál, podíly a akcie, převody a zástavy, valné hromady a per rollam, orgány, péči řádného hospodáře, střet zájmů, odměňování, odpovědnost při úpadku, zisk, dohody společníků, koncerny, přeměny, likvidaci, veřejný rejstřík a skutečné majitele. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu korporatni-pravo (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

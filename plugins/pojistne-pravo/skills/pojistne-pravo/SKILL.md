@@ -25,7 +25,7 @@ i18n:
       - "Poisťovňa odmietla plnenie z poistenia domácnosti, lebo klient pri dojednaní neuviedol skoršiu škodu. Je odmietnutie oprávnené a čo možno namietať?"
       - "Po dopravnej nehode poisťovňa vinníka kráti náhradu za totálnu škodu o amortizáciu a neplatí náhradné vozidlo. Aké nároky má poškodený a v akých lehotách?"
       - "Klient dostal výzvu ČKP na úhradu príspevku za nepoistené vozidlo, ktoré mal v depozite. Ako sa brániť?"
-description: Použij pro pojistné smlouvy a distribuci, podmínky a dotazníky, likvidaci, zálohy, snížení či odmítnutí plnění, výluky, promlčení, zánik, majetek, odpovědnost, povinné ručení, ČKP a regres, životní, úrazové, cestovní a podnikatelské pojištění, finančního arbitra a ADR.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro pojistné smlouvy a distribuci, podmínky a dotazníky, likvidaci, zálohy, snížení či odmítnutí plnění, výluky, promlčení, zánik, majetek, odpovědnost, povinné ručení, ČKP a regres, životní, úrazové, cestovní a podnikatelské pojištění, finančního arbitra a ADR. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu pojistne-pravo (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

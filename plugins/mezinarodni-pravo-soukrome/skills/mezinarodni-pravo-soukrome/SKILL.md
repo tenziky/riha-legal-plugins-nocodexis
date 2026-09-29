@@ -25,7 +25,7 @@ i18n:
       - "Nemecký odberateľ nezaplatil faktúry českej firme; v zmluve nie je nič o súde ani práve. Kde žalovať a podľa akého práva?"
       - "Máme právoplatný rozsudok českého súdu proti dlžníkovi s majetkom v Rakúsku a vo Veľkej Británii. Ako ho vykonať?"
       - "Klient sa rozviedol na Ukrajine a chce sa v ČR znovu oženiť. Čo treba na uznanie rozvodu?"
-description: 'Použij pro cizí prvek: pravomoc a příslušnost, rozhodné právo, volbu soudu a práva, souběžná řízení, CISG, doručování a dokazování v cizině, uznání a výkon rozsudků i nálezů, evropské procesní nástroje, apostilu, překlady, sankce a přeshraniční rodinné, dědické či obchodní věci.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro cizí prvek: pravomoc a příslušnost, rozhodné právo, volbu soudu a práva, souběžná řízení, CISG, doručování a dokazování v cizině, uznání a výkon rozsudků i nálezů, evropské procesní nástroje, apostilu, překlady, sankce a přeshraniční rodinné, dědické či obchodní věci. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu mezinarodni-pravo-soukrome (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

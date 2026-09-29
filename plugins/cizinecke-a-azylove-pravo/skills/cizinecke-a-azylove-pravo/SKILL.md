@@ -25,7 +25,7 @@ i18n:
       - "Zamestnankyni z Ukrajiny končí o tri týždne zamestnanecká karta a chce zmeniť zamestnávateľa. Čo a v akom poradí podať?"
       - "Klientovi bolo uložené správne vyhostenie so zákazom vstupu na 2 roky. Aké lehoty bežia a ako sa brániť?"
       - "Firma chce zamestnať programátora z Indie. Aké oprávnenie potrebuje a ako dlho to trvá?"
-description: Použij pro vstup a pobyt cizinců, víza, pobytové a zaměstnanecké karty, občany EU a rodinné příslušníky, zaměstnávání cizinců, mezinárodní a dočasnou ochranu, Dublin, vyhoštění, zajištění, návrat, státní občanství a opravné prostředky.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro vstup a pobyt cizinců, víza, pobytové a zaměstnanecké karty, občany EU a rodinné příslušníky, zaměstnávání cizinců, mezinárodní a dočasnou ochranu, Dublin, vyhoštění, zajištění, návrat, státní občanství a opravné prostředky. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu cizinecke-a-azylove-pravo (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

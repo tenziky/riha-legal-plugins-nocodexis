@@ -25,7 +25,7 @@ i18n:
       - "Advokát preberá do úschovy kúpnu cenu 12 mil. Kč od zahraničnej spoločnosti s nejasnou štruktúrou. Aké AML povinnosti má a kedy môže/musí obchod odmietnuť?"
       - "Realitná kancelária dostala od FAÚ výzvu na predloženie dokumentov. Čo musí mať v poriadku a aké hrozia pokuty?"
       - "Priprav checklist kontroly klienta pre s.r.o. s konečným užívateľom výhod v evidencii a konateľom PEP."
-description: 'Použij pro české AML a sankční povinnosti: povinné osoby včetně advokátů, notářů, realitních zprostředkovatelů, účetních a finančních institucí; identifikace a kontrola klienta, skutečný majitel, PEP, rizika, úschovy, hotovost, virtuální aktiva, podezřelé obchody, FAÚ a ČAK, mlčenlivost, vnitřní zásady, školení, uchovávání, kontroly a sankce, evropský AML rámec a AMLA.Právní rešerše přes konektory Salvia a lawgpt.codexis.ai.'
+description: 'Použij pro české AML a sankční povinnosti: povinné osoby včetně advokátů, notářů, realitních zprostředkovatelů, účetních a finančních institucí; identifikace a kontrola klienta, skutečný majitel, PEP, rizika, úschovy, hotovost, virtuální aktiva, podezřelé obchody, FAÚ a ČAK, mlčenlivost, vnitřní zásady, školení, uchovávání, kontroly a sankce, evropský AML rámec a AMLA. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu aml-compliance (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

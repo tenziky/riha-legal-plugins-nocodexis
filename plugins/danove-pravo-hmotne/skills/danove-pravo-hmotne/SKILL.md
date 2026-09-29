@@ -25,7 +25,7 @@ i18n:
       - "Finančný úrad odoprel klientovi odpočet DPH, lebo dodávateľ v reťazci neodviedol daň. Aké sú podmienky vedomostného testu a čo musíme preukázať?"
       - "Klient predáva byt, ktorý vlastnil 4 roky a rok v ňom býval. Je príjem oslobodený a ako funguje časový test po novele?"
       - "Konateľ žije pol roka v Rakúsku. Kde je daňovým rezidentom a ako sa zdaní odmena konateľa podľa zmluvy o zamedzení dvojitého zdanenia?"
-description: 'Použij pro hmotné české zdanění: příjmy FO a PO, DPH, osvobození a časové testy, nemovitosti, podíly, kryptoaktiva, náklady, odpisy, rezidence, dvojí zdanění, převodní ceny, zneužití práva, podvody a ručení u DPH, zaměstnanec versus OSVČ, odměňování, přeměny a holdingy, insolvenční a trestní daňové souvislosti. Samostatnou procesní obranu směruj do skillu správního a daňového řízení.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro hmotné české zdanění: příjmy FO a PO, DPH, osvobození a časové testy, nemovitosti, podíly, kryptoaktiva, náklady, odpisy, rezidence, dvojí zdanění, převodní ceny, zneužití práva, podvody a ručení u DPH, zaměstnanec versus OSVČ, odměňování, přeměny a holdingy, insolvenční a trestní daňové souvislosti. Samostatnou procesní obranu směruj do skillu správního a daňového řízení. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu danove-pravo-hmotne (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

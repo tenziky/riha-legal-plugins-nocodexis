@@ -25,7 +25,7 @@ i18n:
       - "Klientovi do auta narazil vodič, ktorý od nehody ušiel. Kto zaplatí škodu a aké nároky uplatniť?"
       - "Vodičovi bol zadržaný vodičský preukaz po nameraní 1,2 promile. Čo mu hrozí a ako postupovať v prvých dňoch?"
       - "Poisťovňa vinníka kráti náhradu za opravu o amortizáciu a odmieta náhradné vozidlo. Je to v súlade s judikatúrou?"
-description: Použij pro dopravní nehody, náhradu újmy, povinné ručení a regres, dopravní přestupky a trestné činy, řidičská oprávnění a body, provoz vozidel, komunikace, taxislužbu a nákladní dopravu, CMR a práva cestujících.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro dopravní nehody, náhradu újmy, povinné ručení a regres, dopravní přestupky a trestné činy, řidičská oprávnění a body, provoz vozidel, komunikace, taxislužbu a nákladní dopravu, CMR a práva cestujících. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu dopravni-pravo-nehody (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

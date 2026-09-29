@@ -25,7 +25,7 @@ i18n:
       - "Priprav postup predaja ideálnej polovice domu, na ktorom viazne hypotéka, vrátane podmienok úschovy."
       - "Kupujeme chatu na cudzom pozemku. Kto má predkupné právo a ako dlho trvá ponuka?"
       - "Aké sú náležitosti návrhu na vklad a čo sa stane, keď kataster zistí vadu?"
-description: Použij pro koupě a převody nemovitostí, rezervace, budoucí smlouvy, úschovy, financování, katastrální vklad, zástavy, předkupní práva, spoluvlastnictví, SJM, jednotky, SVJ, právo stavby, nájmy a pacht, developerské obchody, PENB, AML a daně transakcí.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro koupě a převody nemovitostí, rezervace, budoucí smlouvy, úschovy, financování, katastrální vklad, zástavy, předkupní práva, spoluvlastnictví, SJM, jednotky, SVJ, právo stavby, nájmy a pacht, developerské obchody, PENB, AML a daně transakcí. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu nemovitosti-transakce (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

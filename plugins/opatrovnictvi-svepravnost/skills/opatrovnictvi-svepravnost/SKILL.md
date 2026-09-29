@@ -25,7 +25,7 @@ i18n:
       - "Matka klienta má pokročilú demenciu a treba predať jej byt na úhradu starostlivosti. Aké sú možnosti - zastúpenie členom domácnosti, opatrovník, schválenie súdom - a ako dlho to trvá?"
       - "Súd obmedzil klienta v spôsobilosti na 3 roky pre schizofréniu, klient je stabilizovaný a chce obmedzenie zrušiť. Ako postupovať a čo preukázať?"
       - "Opatrovník súrodenca uzavrel za opatrovanca darovaciu zmluvu na chalupu bez súhlasu súdu. Je zmluva platná a ako sa brániť?"
-description: Použij pro svéprávnost dospělých, podpůrná opatření, nápomoc, zastoupení domácností, předběžné prohlášení, opatrovnictví, radu a soudní souhlasy, přezkum a navrácení svéprávnosti, nedobrovolnou péči a detenci, ochranu seniorů a napadání jednání při duševní poruše.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro svéprávnost dospělých, podpůrná opatření, nápomoc, zastoupení domácností, předběžné prohlášení, opatrovnictví, radu a soudní souhlasy, přezkum a navrácení svéprávnosti, nedobrovolnou péči a detenci, ochranu seniorů a napadání jednání při duševní poruše. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu opatrovnictvi-svepravnost (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

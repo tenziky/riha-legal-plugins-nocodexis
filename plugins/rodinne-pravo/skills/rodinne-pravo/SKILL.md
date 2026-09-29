@@ -25,7 +25,7 @@ i18n:
       - "Klientka chce nesporný rozvod s dvoma maloletými deťmi. Aké dokumenty a v akom poradí pripraviť?"
       - "Otec neplatí výživné 8 mesiacov a odsťahoval sa do Rakúska. Ako postupovať?"
       - "Manžel previedol pred rozvodom firmu na brata. Dá sa to zohľadniť pri vyporiadaní SJM?"
-description: Použij pro manželství, partnerství a soužití, rozvod, péči a komunikaci s dítětem, rodičovskou odpovědnost a výživné, SJM a vypořádání, rodičovství, osvojení, poručenství a pěstounství, domácí násilí, OSPOD, mediaci, přeshraniční rodinu a únos dítěte.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro manželství, partnerství a soužití, rozvod, péči a komunikaci s dítětem, rodičovskou odpovědnost a výživné, SJM a vypořádání, rodičovství, osvojení, poručenství a pěstounství, domácí násilí, OSPOD, mediaci, přeshraniční rodinu a únos dítěte. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu rodinne-pravo (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

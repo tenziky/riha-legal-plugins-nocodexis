@@ -25,7 +25,7 @@ i18n:
       - "Protistrana podala žalobu na súd, hoci zmluva má rozhodcovskú doložku. Ako a dokedy namietnuť nedostatok právomoci?"
       - "Klientovi bol doručený rozhodcovský nález vydaný ad hoc rozhodcom podľa doložky v zmluve o úvere z roku 2011. Možno nález zrušiť alebo zastaviť exekúciu?"
       - "Súd nariadil prvé stretnutie s mediátorom. Čo to znamená, čo hrozí pri neúčasti a ako sa líši mediačná dohoda od zmieru?"
-description: Použij pro arbitráž, rozhodčí smlouvy a arbitrabilitu, ustanovení a podjatost rozhodce, řízení a nálezy, zrušení a výkon, zahraniční arbitráž, mediaci a mediační dohody, soudní smír a spotřebitelské ADR či finančního arbitra. Spotřebitelský a pracovní režim vždy ověř podle rozhodného práva a času.Právní rešerše přes konektory Salvia a lawgpt.
+description: Použij pro arbitráž, rozhodčí smlouvy a arbitrabilitu, ustanovení a podjatost rozhodce, řízení a nálezy, zrušení a výkon, zahraniční arbitráž, mediaci a mediační dohody, soudní smír a spotřebitelské ADR či finančního arbitra. Spotřebitelský a pracovní režim vždy ověř podle rozhodného práva a času. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu rozhodci-rizeni-mediace (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

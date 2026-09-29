@@ -25,7 +25,7 @@ i18n:
       - "Rozsudok odvolacieho súdu bol doručený do dátovej schránky 3. 6. a klient ho otvoril 15. 6. Dokedy plynie lehota na dovolanie a ako správne vymedziť prípustnosť podľa § 237?"
       - "Žalovaný sa nedostavil na prvé pojednávanie a súd vydal rozsudok pre zmeškanie. Aké sú možnosti obrany a lehoty?"
       - "Priprav petit a štruktúru žaloby na zaplatenie 480 000 Kč s príslušenstvom z nezaplatenej faktúry, vrátane výpočtu súdneho poplatku a trov."
-description: 'Použij pro civilní sporné, zvláštní a hromadné řízení: pravomoc, příslušnost, žalobu a petit, doručování, lhůty, dokazování a koncentraci, platební rozkazy, uznání a zmeškání, předběžná opatření, odvolání a dovolání, obnovu a zmatečnost, soudní poplatky, tarifní náklady, průtahy a spravedlivý proces.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro civilní sporné, zvláštní a hromadné řízení: pravomoc, příslušnost, žalobu a petit, doručování, lhůty, dokazování a koncentraci, platební rozkazy, uznání a zmeškání, předběžná opatření, odvolání a dovolání, obnovu a zmatečnost, soudní poplatky, tarifní náklady, průtahy a spravedlivý proces. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu obcanske-procesni-pravo (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

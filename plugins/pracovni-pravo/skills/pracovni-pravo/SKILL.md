@@ -25,7 +25,7 @@ i18n:
       - "Zamestnávateľ chce dať výpoveď pre nadbytočnosť zamestnancovi, ktorý je 3 mesiace práceneschopný. Dá sa to a ako?"
       - "Klient dostal okamžité zrušenie pracovného pomeru za neskoré príchody. Je platné a dokedy sa brániť?"
       - "Priprav konkurenčnú doložku pre obchodného riaditeľa tak, aby bola vymáhateľná."
-description: 'Použij pro zaměstnavatele, zaměstnance, HR a odbory: pracovní smlouvy, DPP a DPČ, dobu určitou a zkušební dobu, skončení a neplatnost, mzdu a pracovní dobu, dovolenou a home office, odpovědnost a úrazy, konkurenční doložky, přechod práv, propouštění, agenturní a nelegální práci, diskriminaci, whistleblowing a inspekci.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro zaměstnavatele, zaměstnance, HR a odbory: pracovní smlouvy, DPP a DPČ, dobu určitou a zkušební dobu, skončení a neplatnost, mzdu a pracovní dobu, dovolenou a home office, odpovědnost a úrazy, konkurenční doložky, přechod práv, propouštění, agenturní a nelegální práci, diskriminaci, whistleblowing a inspekci. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu pracovni-pravo (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

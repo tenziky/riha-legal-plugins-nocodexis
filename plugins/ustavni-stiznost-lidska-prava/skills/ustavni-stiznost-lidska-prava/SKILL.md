@@ -25,7 +25,7 @@ i18n:
       - "Najvyšší súd odmietol dovolanie klienta pre neprípustnosť. Plynie lehota na ústavnú sťažnosť a proti čomu ju podať?"
       - "Priprav štruktúru ústavnej sťažnosti proti rozsudku, ktorý nereagoval na kľúčovú námietku - aké právo namietať a akú judikatúru ÚS?"
       - "Ústavný súd sťažnosť odmietol ako zjavne neopodstatnenú. Dokedy a ako podať sťažnosť na ESĽP a čo musí obsahovať formulár?"
-description: Use for Czech constitutional complaints, fundamental rights, admissibility, remedies, interim protection, constitutional review, Strasbourg proceedings and related EU Charter issues. Distinguish constitutional review from ordinary appeal.Právní rešerše přes konektory Salvia a lawgpt.
+description: Use for Czech constitutional complaints, fundamental rights, admissibility, remedies, interim protection, constitutional review, Strasbourg proceedings and related EU Charter issues. Distinguish constitutional review from ordinary appeal. Právní rešerše přes konektory Salvia a lawgpt.
 ---
 
 <!-- Upraveno z pluginu ustavni-stiznost-lidska-prava (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->

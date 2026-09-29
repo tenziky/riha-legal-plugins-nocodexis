@@ -25,7 +25,7 @@ i18n:
       - "Nebanková spoločnosť požičala klientovi 300 000 Kč bez overenia príjmov. Možno namietať neplatnosť zmluvy pre neposúdenie úverovej schopnosti a čo sa potom vracia?"
       - "Klient chce predčasne splatiť hypotéku s fixáciou a banka požaduje náhradu nákladov 150 000 Kč. Aký je zákonný limit po novele?"
       - "Z účtu klienta odišla platba, ktorú nezadal, po phishingu. Musí banka vrátiť peniaze a v akej lehote, a kedy sa uplatní hrubá nedbanlivosť klienta?"
-description: 'Použij pro banky, úvěry, zápůjčky a platební služby v ČR: spotřebitelský a podnikatelský úvěr, hypotéky, úvěruschopnost, RPSN, předčasné splacení, prodlení, zajištění, ručení, notářské zápisy, neautorizované platby, phishing, účty, bankovní tajemství, ČNB, finanční arbitr, BNPL, leasing, fintech, kryptoaktiva a insolvenční souvislosti.Právní rešerše přes konektory Salvia a lawgpt.'
+description: 'Použij pro banky, úvěry, zápůjčky a platební služby v ČR: spotřebitelský a podnikatelský úvěr, hypotéky, úvěruschopnost, RPSN, předčasné splacení, prodlení, zajištění, ručení, notářské zápisy, neautorizované platby, phishing, účty, bankovní tajemství, ČNB, finanční arbitr, BNPL, leasing, fintech, kryptoaktiva a insolvenční souvislosti. Právní rešerše přes konektory Salvia a lawgpt.'
 ---
 
 <!-- Upraveno z pluginu bankovnictvi-a-uvery (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->
