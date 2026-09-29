@@ -1,27 +1,28 @@
 ---
 name: jednani
-description: 'Záznam z jednání soudu → hlídané lhůty v kalendáři „AK - Jirka“. Z volných poznámek po jednání vytáhne lhůty všech stran a termín dalšího jednání, spočítá konce lhůt dle § 57 o. s. ř. skriptem a po schválení založí události s upomínkami. Triggers: /lhutnik, /jednani, záznam z jednání, byl jsem u soudu, po jednání, zapiš lhůtu, odročeno, lhůtník, procesní lhůta.'
+description: Záznam z jednání soudu → hlídané lhůty v kalendáři. Z volných poznámek po jednání vytáhne lhůty všech stran a termín dalšího jednání, spočítá konce lhůt dle § 57 o. s. ř. a založí události s upomínkami. Triggers: /jednani, záznam z jednání, byl jsem u soudu, po jednání, zapiš lhůtu, odročeno, lhůtník, procesní lhůta.
 ---
-
-<!-- Upraveno z pluginu lhutnik (JUDr. Vojtěch Říha, Ph.D., github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zápis do kalendáře přes Spark místo gog CLI, kalendář „AK - Jirka“, metadata v popisu události. -->
 
 # Záznam z jednání → hlídané lhůty
 
-Účel: aby se poznámka z jednací síně **ve stejném úkonu** změnila na termín s budíkem. Dva oddělené kroky („zapsat“ a „zanést do lhůtníku“) selhávají na tom druhém — proto se tady dělají naráz.
+Účel: aby se poznámka z jednací síně **ve stejném úkonu** změnila na termín s budíkem. Dva oddělené kroky („zapsat" a „zanést do lhůtníku") selhávají na tom druhém — proto se tady dělají naráz.
 
-Kalkulátor lhůt leží vedle tohoto souboru (`lhuta.py`).
+Skill je soběstačný: kalkulátor lhůt leží vedle tohoto souboru (`lhuta.py`).
 
 ## Konfigurace
 
+Výchozí hodnoty pro toto prostředí. Při nasazení jinde uprav jen tuhle sekci — zbytek skillu je na ní nezávislý.
+
 | Klíč | Hodnota |
 |---|---|
-| Kalendář (zdroj pravdy pro lhůty) | iCloud kalendář **„AK - Jirka“**, zápis nástrojem Spark `event` (`mode: create`, `calendar: <účet>:AK - Jirka`). Název účtu zjisti nástrojem Spark `accounts`. |
+| Kalendář (zdroj pravdy pro lhůty) | `gog calendar create primary` |
 | Časové pásmo | `Europe/Prague` |
+| Záchyt z mobilu | chat se sebou (WhatsApp/Signal), JID `<tvoje-cislo>@s.whatsapp.net` — vyplň |
 | Kam ukládat záznam | do složky kauzy; neznáš-li ji, zeptej se |
-| Upomínky u lhůty | 7 dní, 3 dny, 1 den předem (`alerts: 604800s,259200s,86400s`) |
-| Upomínky u jednání | 7 dní, 1 den předem (`alerts: 604800s,86400s`) |
+| Upomínky u lhůty | `popup:7d`, `popup:3d`, `popup:1d` |
+| Upomínky u jednání | `popup:7d`, `popup:1d` |
 
-Kalendář „AK - Jirka“ vidí i školitel. Každý zápis do něj musí uživatel předem výslovně potvrdit. Není-li Spark dostupný, zeptej se, kam termíny zapsat — **nikdy je nezakládej „naslepo“ jinam**.
+Není-li k dispozici `gog`, zeptej se, kam termíny zapsat — **nikdy je nezakládej „naslepo" jinam**, než co uživatel potvrdí.
 
 ## ŽELEZNÁ PRAVIDLA
 
@@ -35,7 +36,8 @@ Kalendář „AK - Jirka“ vidí i školitel. Každý zápis do něj musí uži
 
 ### 1. Získej vstup
 
-Poznámky jsou ve zprávě nebo v přiloženém souboru; jinak o ně požádej.
+- **Z terminálu:** poznámky jsou v argumentu skillu, jinak o ně požádej.
+- **Z mobilu** (řekne-li uživatel „poslal jsem si to", „z whatsappu"): načti poslední zprávy z chatu se sebou dle konfigurace, vyber ty od posledního jednání a nech uživatele potvrdit, které patří k věci.
 
 ### 2. Vytěž fakta
 
@@ -53,42 +55,52 @@ Sestav tabulku z toho, co v poznámkách je. Co chybí, **vypiš jako otázky** 
 | Poučení | zejm. § 118a, § 118b odst. 1 (koncentrace) |
 | Úkoly pro mě | co sepsat, co doložit, koho oslovit |
 
-Stav řízení lze doplnit ze skillu ak-infosoud (InfoSoud), pokud je sp. zn. známa.
-
 ### 3. Spočítej lhůty
 
 Pro každou lhůtu zavolej kalkulátor a použij `posledni_den`:
 
 ```bash
-python3 lhuta.py 2026-02-02 30d --json
+python3 "$SKILL_DIR/lhuta.py" 2026-02-02 30d --json
 ```
 
 Podporuje `Nd` / `Nt` / `Nm` / `Nr` (dny, týdny, měsíce, roky). Implementuje § 57 o. s. ř.: běh od následujícího dne po rozhodné skutečnosti; u týdnů/měsíců/let shoda označení dne (není-li takový den, poslední den měsíce); posun z víkendu a svátku na nejblíže následující pracovní den. Svátky včetně pohyblivých Velikonoc.
 
 ### 4. Předlož souhrn ke schválení
 
-Vypiš, co se založí — každou lhůtu s posledním dnem a upomínkami, jednání s časem a síní, kontrolní události. Vyžádej výslovné potvrzení.
+Vypiš, co se založí — každou lhůtu s posledním dnem a upomínkami, jednání s časem a síní. Vyžádej potvrzení.
 
-### 5. Založ události (Spark `event`, `mode: create`)
+### 5. Založ události
 
-Metadata pro pozdější kontrolní přejezd ulož na konec popisu události v jednom řádku:
-`[lhutnik] typ=lhuta|jednani|kontrola; kdo=my|protistrana|soud; spis=<sp. zn.>`
+Vždy s časovým pásmem z konfigurace a vždy s private properties (podle nich lze později stavět kontrolní přejezd):
+`lhutnik=1`, `typ=lhuta|jednani|kontrola`, `kdo=my|protistrana|soud`, `spis="<sp. zn.>"`.
 
 **Lhůta** — celodenní událost na poslední den:
-- `title`: `LHŮTA (protistrana): <co> — <sp. zn.>`
-- `start`: `2026-03-04`, `all_day: true`
-- `description`: od čeho běží, co se stane při nesplnění, kde ověřit + řádek metadat
-- `alerts`: `604800s,259200s,86400s`
+
+```bash
+gog calendar create primary \
+  --summary "LHŮTA (protistrana): <co> — <sp. zn.>" \
+  --from 2026-03-04 --to 2026-03-05 --all-day --timezone Europe/Prague \
+  --description "<od čeho běží, co se stane při nesplnění, kde ověřit>" \
+  --reminder popup:7d --reminder popup:3d --reminder popup:1d \
+  --private-prop lhutnik=1 --private-prop typ=lhuta --private-prop kdo=protistrana \
+  --private-prop spis="<sp. zn.>"
+```
 
 **Jednání** — časovaná událost:
-- `title`: `Jednání: <klient> — <sp. zn.>`
-- `start`: `2026-06-15T15:00:00+02:00`, `end`: `2026-06-15T16:30:00+02:00`
-- `location`: soud, adresa, jednací síň
-- `alerts`: `604800s,86400s`
 
-U lhůty protistrany založ **navíc kontrolní událost** den po jejím uplynutí: „ověřit ve spisu/rejstříku, zda protistrana doplnila“ (`typ=kontrola`).
+```bash
+gog calendar create primary \
+  --summary "Jednání: <klient> — <sp. zn.>" \
+  --from "2026-06-15T15:00:00+02:00" --to "2026-06-15T16:30:00+02:00" \
+  --timezone Europe/Prague \
+  --location "<soud, adresa, jednací síň>" \
+  --reminder popup:7d --reminder popup:1d \
+  --private-prop lhutnik=1 --private-prop typ=jednani --private-prop spis="<sp. zn.>"
+```
 
-Neznáš-li délku jednání, počítej 90 minut a řekni to uživateli. Pozvánky (`add`) nikomu neposílej.
+U lhůty protistrany založ **navíc kontrolní událost** den po jejím uplynutí: „ověřit ve spisu/rejstříku, zda protistrana doplnila" (`--private-prop typ=kontrola`).
+
+Neznáš-li délku jednání, počítej 90 minut a řekni to uživateli.
 
 ### 6. Ulož strukturovaný záznam
 
@@ -101,8 +113,7 @@ Shrň, co bylo založeno, a **výslovně vyjmenuj, co jsi nezaložil a proč** (
 ## Časté pasti
 
 - **§ 118b odst. 1 poslední věta**: byla-li dána výzva dle § 118a, smí soud přihlédnout i k později uvedeným skutečnostem. Zmeškání takové lhůty protistranou tedy *není* prekluze — argumentovat neunesením břemene tvrzení, ne prekluzí.
-- Lhůta „ode dne zveřejnění v rejstříku“ běží od zveřejnění, ne od jednání ani od doručení.
-- Odročeno „na neurčito“ = žádná událost jednání, ale **založ kontrolu za 3 měsíce**, ať věc nezapadne.
+- Lhůta „ode dne zveřejnění v rejstříku" běží od zveřejnění, ne od jednání ani od doručení.
+- Odročeno „na neurčito" = žádná událost jednání, ale **založ kontrolu za 3 měsíce**, ať věc nezapadne.
 - Vyhlásí-li soud rozhodnutí při jednání, běží lhůta k opravnému prostředku typicky od **doručení písemného vyhotovení** — v den jednání ji tedy ještě nelze uzavřít; založ kontrolu na očekávané doručení.
-- Doručení do datové schránky: fikce doručení 10. dnem od dodání (§ 17 odst. 4 z. č. 300/2008 Sb.); rozhodnou skutečností je pak den přihlášení, nebo den fikce — ověř, co nastalo dřív.
 - Lhůty hmotněprávní (promlčecí, prekluzivní dle o. z.) se počítají jinak než procesní a **musí dojít včas**, ne jen být odeslány. Kalkulátor je stavěný na procesní lhůty dle § 57 o. s. ř. — u hmotněprávních jeho výsledek nepoužívej bez kontroly.

@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "lhutnik",
-      "description": "Lhůtník pro českou advokátní praxi — ze záznamu z jednání založí hlídané lhůty v kalendáři „AK - Jirka“ (Spark); konce lhůt počítá dle § 57 o. s. ř.",
+      "description": "Lhůtník pro českou advokátní praxi — ze záznamu z jednání založí hlídané lhůty a termíny v kalendáři; konce lhůt počítá dle § 57 o. s. ř. včetně posunu z víkendů a svátků",
       "source": "./plugins/lhutnik",
       "category": "legal",
       "icon": "./plugins/lhutnik/icon.svg"
