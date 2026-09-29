@@ -34,8 +34,8 @@ EN_OLD = re.compile(r",? on top of the CODEXIS legal database")
 EN_NEW = " - research via the Salvia and lawgpt connectors"
 FM_DESC_EN = ("Research legal sources only through native CODEXIS in the application.",
               "Research legal sources through the Salvia and lawgpt connectors (registries via Sagasu, EU law via Ansvar).")
-FM_DESC_CZ = (re.compile(r"(Právní|Veškeré)?[^.'\n]*CODEXIS[^.'\n]*\."),
-              "Právní rešerše přes konektory Salvia a lawgpt.")
+FM_DESC_CZ = (re.compile(r" ?(?:Právní|Veškeré)?[^.'\n]*CODEXIS(?: ve vm\.codexis\.ai)?[^.'\n]*\."),
+              " Právní rešerše přes konektory Salvia a lawgpt.")
 POZNAMKA = ("\n<!-- Upraveno z pluginu {name} (JUDr. Vojtěch Říha, Ph.D., "
             "github.com/LexaurinTheDog/riha-legal-plugins, Apache-2.0): zdroj CODEXIS "
             "nahrazen konektory Salvia, lawgpt, Ansvar a Sagasu. -->\n")
@@ -73,6 +73,7 @@ def prevod_skillu(f, puvodni, novy):
     head, sep, rest = t.partition("\n---\n")
     head = head.replace(*FM_DESC_EN)
     head = FM_DESC_CZ[0].sub(FM_DESC_CZ[1], head)
+    head = re.sub(r"(description: '?) ", r"\1", head)  # popis nesmí začínat mezerou
     for a, b in BODY_SUBS:
         rest = re.sub(a, b, rest)
     name = f.split(os.sep)[-4]
@@ -126,7 +127,8 @@ def main(src, dst):
         if not os.path.isfile(f) or not f.endswith((".md", ".json", ".py")) or f.endswith(("README-original.md", "ZMENY.md")):
             continue
         for i, radek in enumerate(cti(f).splitlines(), 1):
-            if "CODEXIS" in radek and "Upraveno z pluginu" not in radek and "CODEXIS nahrazen" not in radek:
+            if ("codexis" in radek.lower().replace("nocodexis", "") and "Upraveno z pluginu" not in radek
+                    and "CODEXIS nahrazen" not in radek):
                 chyby.append(f"{f}:{i}: po převodu zůstal CODEXIS: {radek.strip()[:120]}")
     for f in skilly:
         if os.sep + "lhutnik" + os.sep in f:
